@@ -1,0 +1,10 @@
+.ecommerce-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 10rem;
+}
+
+.ecommerce-content {
+  flex: 1;
+  padding: 2rem 0;
+}

@@ -1,0 +1,76 @@
+.cart-item {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  align-items: center;
+  background: var(--light-background);
+  padding: 2rem;
+  border-radius: 0.2rem;
+  height: fit-content;
+  box-shadow:
+    0 0.6px 1.1px rgba(0, 0, 0, 0.028),
+    0 1.3px 2.7px rgba(0, 0, 0, 0.04),
+    0 2.5px 5px rgba(0, 0, 0, 0.05),
+    0 4.5px 8.9px rgba(0, 0, 0, 0.06),
+    0 8.4px 16.7px rgba(0, 0, 0, 0.072),
+    0 20px 40px rgba(0, 0, 0, 0.1)
+  ;
+
+}
+
+.cart-item img {
+  width: 2.4rem;
+  margin-right: 1rem;
+  justify-self: center;
+}
+
+.cart-item p {
+  margin-bottom: 0;
+}
+
+.cart-item span {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.item-amount {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.item-amount button {
+  border: 1px solid var(--text);
+  background: none;
+  border-radius: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem;
+
+  transition: all 0.2s;
+}
+
+.item-amount button:hover:enabled {
+  background: var(--text);
+  color: var(--dark-background);
+  filter: brightness(0.8);
+}
+
+.item-amount button:disabled {
+  cursor: default;
+  filter: brightness(0.5);
+}
+
+.remove-item {
+  cursor: pointer;
+  font-size: 1.2rem;
+  justify-self: center;
+  background: none;
+  border: none;
+
+  transition: filter 0.2s;
+}
+
+.remove-item:hover {
+  filter: brightness(0.8);
+}

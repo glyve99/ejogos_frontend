@@ -1,0 +1,86 @@
+.ant-modal-body,
+.ant-modal-close-x {
+  color: var(--text);
+  background-color: var(--background);
+  border: 0;
+}
+
+.modal-container span {
+  margin-bottom: 0;
+
+  transition: all 0.2s;
+}
+
+.modal-container span:hover {
+  filter: brightness(0.8);
+}
+
+.modal-content {
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.product-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+.product-info img {
+  justify-self: center;
+  width: 10rem;
+}
+
+.product-text-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-text-info p {
+  margin-bottom: 0;
+  line-height: 1.4rem;
+}
+
+.product-text-info p:nth-child(3) {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+}
+
+.product-text-info button {
+  width: fit-content;
+  background: none;
+  border: 1px solid var(--text);
+  border-radius: 0.2rem;
+  padding: 0.2rem 0.4rem;
+
+  transition: all 0.2s;
+}
+
+.product-text-info button:hover {
+  background: var(--text);
+  color: var(--dark-background);
+  filter: brightness(0.8);
+}
+
+.product-text-info a {
+  width: fit-content;
+  background: var(--text);
+  border: 1px solid var(--text);
+  color: var(--dark-background);
+  border-radius: 0.2rem;
+  padding: 0.2rem 0.4rem;
+  transition: all 0.2s;
+  line-height: normal;
+}
+
+.product-text-info a:hover {
+  color: var(--dark-background);
+  filter: brightness(0.8);
+}
+
+.product-description h2 {
+  color: var(--text);
+}

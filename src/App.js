@@ -1,11 +1,13 @@
-import './styles/global.css';
+import React from 'react';
 
+import Routes from './routes';
+
+import 'antd/dist/antd.css';
 
 function App() {
   return (
     <div>
-      <p>Navbar muito top pra c*ralho</p>
-      <p>EJogos Frontend</p>
+      <Routes />
     </div>
   );
 }

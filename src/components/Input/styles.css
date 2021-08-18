@@ -1,0 +1,40 @@
+.input-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container label {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.input-container input {
+  background: none;
+  line-height: 2rem;
+  color: var(--text);
+  margin-bottom: 2rem;
+  border: none;
+  border-bottom: 1px solid var(--text);
+  padding: 0.4rem;
+  font-size: 1rem;
+}
+
+.input-container input:focus {
+  background: none;
+  outline: none;
+}
+
+.input-container input:disabled {
+  filter: brightness(0.5);
+}
+
+.input-container input:-webkit-autofill,
+.input-container input:-webkit-autofill:hover, 
+.input-container input:-webkit-autofill:focus, 
+.input-container input:-webkit-autofill:active {
+  box-shadow: none;
+  -webkit-box-shadow: 0 0 0 30px var(--background) inset !important;
+  -webkit-text-fill-color: var(--text) !important;
+  caret-color: var(--text);
+}

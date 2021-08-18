@@ -1,0 +1,48 @@
+.navbar-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: 	#FFFAFA;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  border: 3px solid var(--dark-background);
+}
+
+.navbar-container a {
+  text-decoration: none;
+}
+
+.menu-item {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  width: fit-content;
+  font-size: 1.4rem;
+  margin-right: 2rem;
+  padding: 0.6rem;
+  color: var(--dark-background);
+  transition: all 0.2s;
+  font-family: Arial;
+}
+
+.menu-item:hover {
+  color: var(--text);
+  text-decoration: underline;
+}
+
+.menu-item:last-child {
+  margin-right: 0;
+}
+
+.menu-item svg {
+  font-size: 1.6rem;
+  margin-right: 1rem;
+}
+
+.menu-item span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.8rem;
+}

@@ -1,0 +1,20 @@
+button {
+  background: none;
+  border: 1px solid var(--text);
+  border-radius: 0.2rem;
+  padding: 0.2rem 0.4rem;
+  font-size: 1rem;
+
+  transition: all 0.2s;
+}
+
+button:hover:enabled {
+  background: var(--text);
+  color: var(--dark-background);
+  filter: brightness(0.8);
+}
+
+button:disabled {
+  cursor: default;
+  filter: brightness(0.5);
+}

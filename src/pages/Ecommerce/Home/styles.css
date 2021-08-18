@@ -1,0 +1,112 @@
+.home-container section {
+  margin-bottom: 0rem;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 12rem;
+  margin-bottom: 1rem;
+}
+
+.logo p {
+  font-size: 6rem;
+  line-height: 1.8rem;
+
+}
+
+.logo span {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  font-weight: 600;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.filters button {
+  width: 6rem;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: var(--text);
+  transition: all 0.2s;
+}
+
+.filters button:hover {
+    width: 8rem;
+    color:var(--dark-background);
+    background-color: #fff;
+    font-size: 1.5rem;
+  
+}
+
+.filters button:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.active-button {
+  background-color: var(--dark-background);
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.search span {
+  font-size: 1rem;
+}
+
+.search-container input {
+  background: none;
+  line-height: 1.2rem;
+  color: var(--text);
+  border: none;
+  border-bottom: 1px solid var(--text);
+  padding: 0.4rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  transition: filter 0.2s;
+ 
+}
+
+.search-container input:focus {
+  outline: none;
+  filter: brightness(0.8);
+}
+
+.search-container button {
+  border: none;
+}
+
+.search-container button:hover {
+  background: none;
+  color: var(--text);
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  justify-items: center;
+}
+
+
+.load-more {
+  display: flex;
+  justify-content: center;
+}
