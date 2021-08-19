@@ -99,8 +99,8 @@ function AddProduct() {
                   required
                 >
                   <option value={1}>PC</option>
-                  <option value={2}>P</option>
-                  <option value={3}>Razer</option>
+                  <option value={2}>Playstation</option>
+                  <option value={3}>Xbox</option>
                 </select>
               </div>
             </div>

@@ -92,7 +92,6 @@
   font-size: 1rem;
   margin-bottom: 1rem;
   transition: filter 0.2s;
- 
 }
 
 .search-container input:focus {
@@ -123,11 +122,9 @@
 }
 
 .load-more button:hover{
-  
   background: var(--dark-background);
   border: 1px solid var(--text);
   border-radius: 0.2rem;
   padding: 0.2rem 0.4rem;
   font-size: 1rem;
-
 }
