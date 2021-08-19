@@ -102,9 +102,11 @@ function Details() {
                 value={category}
                 required
               >
-                <option value="headset">Headset</option>
-                <option value="mouse">Mouse</option>
-                <option value="teclado">Teclado</option>
+                <option value="acao">Ação</option>
+                <option value="rpg">RPG</option>
+                <option value="aventura">Aventura</option>
+                <option value="corrida">Corrida</option>
+                <option value="novos">Novos</option>
               </select>
             </div>
             <div className="column">
@@ -115,9 +117,9 @@ function Details() {
                 value={id_brand}
                 required
               >
-                <option value={1}>HyperX</option>
-                <option value={2}>Logitech</option>
-                <option value={3}>Razer</option>
+                <option value={1}>PC</option>
+                <option value={2}>Playstation</option>
+                <option value={3}>Xbox</option>
               </select>
             </div>
           </div>

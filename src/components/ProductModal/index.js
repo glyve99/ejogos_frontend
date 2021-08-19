@@ -36,7 +36,7 @@ function ProductModal({ product, isAdded }) {
                 <Link to="/cart">Ver carrinho</Link>
               ) : (
                 <Button
-                  title="Adicionar"
+                  title="Adicionar ao carrinho"
                   type="button"
                   onClick={() => addItem(product)}
                 />

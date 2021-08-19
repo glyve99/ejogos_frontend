@@ -45,7 +45,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 body, input, textarea, button {
-  font: 500 1rem Open sans, sans-serif; 
+  font-family: 'Oxygen', sans-serif;
+  /* font: 500 1rem Oxygen, sans-serif;  */
   color: var(--text);
 }
 

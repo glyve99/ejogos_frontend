@@ -14,7 +14,7 @@ function Navbar() {
   return (
     <div className="navbar-container">
       <NavLink to="/" className="menu-item">
-        <RiShoppingBag3Line /> Produtos
+        <RiShoppingBag3Line /> Home
       </NavLink>
       <NavLink to="/cart" className="menu-item">
         <AiOutlineShoppingCart /> Carrinho
@@ -23,12 +23,11 @@ function Navbar() {
       <a href="/login" className="menu-item">
         <CgProfile /> Entrar
       </a>
-
-      <a href="/login" className="menu-item">
-        <CgProfile /> dados
-      </a>
     </div>
   );
 }
 
 export default Navbar;
+
+
+

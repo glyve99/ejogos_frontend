@@ -1,15 +1,16 @@
 button {
-  background: none;
-  border: 1px solid var(--text);
-  border-radius: 0.2rem;
+  border: 1px solid var(--background);
+  display: flex;
+  background: var(--background);
+  /* border-radius: 0.2rem; */
   padding: 0.2rem 0.4rem;
   font-size: 1rem;
 
-  transition: all 0.2s;
+  transition: all 0.09s;
 }
 
 button:hover:enabled {
-  font-size: 2rem;
+  font-size: 1.5rem;
   background: red;
   border: none;
 }

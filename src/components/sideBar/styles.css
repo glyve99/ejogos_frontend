@@ -42,15 +42,21 @@
   
   .menu-item svg {
     font-size: 1.6rem;
-    margin-right: 1rem;
   }
   
   .menu-item span {
     font-size: 1.4rem;
-    font-family: KoHo, sans-serif;
+    font-family:  Oxygen, sans-serif;
+    transition: all 0.2s;
+  }
+
+  .menu-item span:hover{
+    text-decoration: underline;
   }
   
   .menu-item:hover {
     background: var(--background);
     color: var(--text);
   }
+
+  

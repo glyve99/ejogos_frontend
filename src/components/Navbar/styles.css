@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: 	#FFFAFA;
+  background-color: 	var(--dark-background);
   border-radius: 1rem;
   margin-bottom: 2rem;
   border: 3px solid var(--dark-background);
@@ -27,7 +27,7 @@
 }
 
 .menu-item:hover {
-  color: var(--text);
+  color: #fff;
   text-decoration: underline;
 }
 
@@ -46,3 +46,6 @@
   right: 0;
   font-size: 0.8rem;
 }
+
+
+

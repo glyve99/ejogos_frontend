@@ -6,6 +6,8 @@
 }
 
 span {
+  font: Open sans, sans-serif;
+  font-size: 2rem;
   color: white;
 }
 
@@ -37,6 +39,7 @@ span {
 }
 
 .product-text-info {
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -55,25 +58,28 @@ span {
 
 .product-text-info button {
   width: fit-content;
-  background: none;
-  border: 1px solid var(--text);
+  color: white;
+  background-color: var(--dark-background);
+  border: 1px solid var(--dark-background);
   border-radius: 0.2rem;
   padding: 0.2rem 0.4rem;
 
-  transition: all 0.2s;
+  transition: all 0.09s;
 }
 
 .product-text-info button:hover {
-  background: var(--text);
-  color: var(--dark-background);
+  border: 1px solid var(--dark-background);
+  font-size: 0.9rem;
+  background: red;
+  color: white;
   filter: brightness(0.8);
 }
 
 .product-text-info a {
   width: fit-content;
-  background: var(--text);
-  border: 1px solid var(--text);
-  color: var(--dark-background);
+  background: red;
+  border: 1px solid red;
+  color: white;
   border-radius: 0.2rem;
   padding: 0.2rem 0.4rem;
   transition: all 0.2s;
@@ -81,8 +87,9 @@ span {
 }
 
 .product-text-info a:hover {
-  color: var(--dark-background);
-  filter: brightness(0.8);
+  font-size: 1.2rem;
+  /* color: var(--dark-background); */
+  filter: brightness(10);
 }
 
 .product-description h2 {

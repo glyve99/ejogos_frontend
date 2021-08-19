@@ -9,7 +9,7 @@
 .login-container a {
   align-self: flex-start;
   text-decoration: none;
-  color: var(--text);
+  color: white;
   display: flex;
   align-items: center;
   font-size: 1.2rem;
@@ -19,7 +19,7 @@
 }
 
 .login-container a:hover {
-  color: var(--text);
+  color: white;
   filter: brightness(0.8);
 }
 
@@ -29,8 +29,10 @@
 
 .login-container h1 {
   color: var(--text);
-  font-size: 1.6rem;
-  margin-bottom: 1rem;
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  border-color: var(--text);
+  border-bottom: 2px solid;
 }
 
 .login-container form {
@@ -41,8 +43,9 @@
 }
 
 .login-container form button {
+  color: white;
   background: none;
-  border: 1px solid var(--text);
+  border: 1px solid white;
   border-radius: 0.2rem;
   line-height: 2rem;
   padding: 0.4rem;
@@ -62,7 +65,7 @@
 .login-container form a {
   align-self: center;
   cursor: pointer;
-  color: var(--text);
+  /* color: white; */
 
   transition: all 0.2s;
 }

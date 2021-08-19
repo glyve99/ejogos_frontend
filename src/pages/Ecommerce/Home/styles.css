@@ -3,7 +3,6 @@
 }
 
 
-
 .logo {
   display: flex;
   flex-direction: column;
@@ -17,19 +16,21 @@
 }
 
 .logo svg{
-  font-size: 5rem;
-  margin-bottom: 3rem;
+  font-size: 4rem;
+  margin-bottom: 0rem;
   
 }
 
 .logo p {
-  font-size: 5rem;
+  font-size: 5rem !important;
   line-height: 1.8rem;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
+  margin-top: 1rem;
 }
 
+
 .logo span {
-  font-size: 1.4rem;
+  font-size: 5.4rem;
   line-height: 2.2rem;
   font-weight: 600;
 }
@@ -41,6 +42,9 @@
 }
 
 .filters button {
+  border-color: var(--border-color);
+  background-color: var(--dark);
+
   width: 6rem;
   padding: 1rem 0;
   display: flex;
@@ -56,8 +60,7 @@
     width: 8rem;
     color:var(--dark-background);
     background-color: #fff;
-    font-size: 1.5rem;
-  
+    font-size: 1.2rem;
 }
 
 .filters button:not(:last-child) {
@@ -108,11 +111,10 @@
 
 .products {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.3rem;
   justify-items: center;
 }
-
 
 .load-more {
   display: flex;

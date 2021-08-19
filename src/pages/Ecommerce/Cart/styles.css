@@ -6,7 +6,7 @@
 
 .cart-info {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 3fr 1fr;
   gap: 2rem;
 }
 
@@ -53,9 +53,10 @@
 }
 
 .payment-actions button {
+  color: white;
   height: fit-content;
   background: none;
-  border: 1px solid var(--text);
+  border: 1px solid white;
   border-radius: 0.2rem;
   padding: 0.2rem 0.4rem;
   margin-right: 1rem;
@@ -64,8 +65,8 @@
 }
 
 .payment-actions button:hover:enabled {
-  background: #fff;
-  color: var(--dark-background);
+  background: red;
+  color: white;
   filter: brightness(0.8);
   font-size: 1rem;
 }

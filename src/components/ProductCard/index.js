@@ -34,7 +34,7 @@ function ProductCard({ product }) {
           <Link to="/cart">Ver carrinho</Link>
         ) : (
           <Button
-            title="Adicionar"
+            title="Adicionar ao carrinho"
             type="button"
             onClick={() => addItem(product)} />
         )}
