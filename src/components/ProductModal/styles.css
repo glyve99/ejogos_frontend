@@ -1,18 +1,22 @@
 .ant-modal-body,
 .ant-modal-close-x {
-  color: var(--text);
+  color: var(--color);
   background-color: var(--background);
   border: 0;
 }
 
+span {
+  color: white;
+}
+
 .modal-container span {
   margin-bottom: 0;
-
+  color: white;
   transition: all 0.2s;
 }
 
 .modal-container span:hover {
-  filter: brightness(0.8);
+  color: rgb(87, 87, 255);
 }
 
 .modal-content {

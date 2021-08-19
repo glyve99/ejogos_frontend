@@ -24,6 +24,9 @@ function Navbar() {
         <CgProfile /> Entrar
       </a>
 
+      <a href="/login" className="menu-item">
+        <CgProfile /> dados
+      </a>
     </div>
   );
 }

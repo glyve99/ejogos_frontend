@@ -64,9 +64,10 @@
 }
 
 .payment-actions button:hover:enabled {
-  background: var(--text);
+  background: #fff;
   color: var(--dark-background);
   filter: brightness(0.8);
+  font-size: 1rem;
 }
 
 .payment-actions button:disabled {

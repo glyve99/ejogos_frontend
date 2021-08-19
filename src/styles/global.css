@@ -6,7 +6,7 @@
 
 :root {
   --light-background: #1C1C1C;
-  --background: 	#A9A9A9;
+  --background: 	#272727;
   --dark-background: #081121;
   --text: #FFD700;
   --border: #161616;
@@ -45,7 +45,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 body, input, textarea, button {
-  font: 500 1rem Chakra Petch, sans-serif;
+  font: 500 1rem Open sans, sans-serif; 
   color: var(--text);
 }
 

@@ -9,9 +9,9 @@ button {
 }
 
 button:hover:enabled {
-  background: var(--text);
-  color: var(--dark-background);
-  filter: brightness(0.8);
+  font-size: 2rem;
+  background: red;
+  border: none;
 }
 
 button:disabled {

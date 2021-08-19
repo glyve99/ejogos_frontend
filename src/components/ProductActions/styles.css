@@ -1,0 +1,51 @@
+.product-actions-container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+    background: var(--blue);
+    padding: 1.6rem;
+    border-radius: 0.2rem;
+    width: 100%;
+    height: fit-content;
+    box-shadow:
+      0 0.6px 1.1px rgba(0, 0, 0, 0.028),
+      0 1.3px 2.7px rgba(0, 0, 0, 0.04),
+      0 2.5px 5px rgba(0, 0, 0, 0.05),
+      0 4.5px 8.9px rgba(0, 0, 0, 0.06),
+      0 8.4px 16.7px rgba(0, 0, 0, 0.072),
+      0 20px 40px rgba(0, 0, 0, 0.1)
+    ;
+  }
+  
+  .product-actions-container img {
+    width: 3.2rem;
+    justify-self: center;
+  }
+  
+  .product-actions-container p {
+    margin-bottom: 0;
+  }
+  
+  .actions-button {
+    color: var(--text);
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 0.3rem 0.6rem;
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 0.2rem;
+  
+    transition: background 0.2s;
+  }
+  
+  .actions-button:hover {
+    color: var(--text);
+    background: var(--dark-blue);
+  }
+  
+  .actions-button svg {
+    margin-right: 0.6rem;
+  }

@@ -1,0 +1,105 @@
+.ant-modal-body,
+.ant-modal-close-x {
+  color: var(--text);
+  background-color: var(--background);
+  border: 0;
+}
+
+.modal-container {
+  width: 100%;
+}
+
+.modal-container button {
+  width: 100%;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 0.2rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+
+  transition: all 0.2s;
+}
+
+.modal-container button:hover {
+  background: var(--dark-blue);
+}
+
+.add-product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.add-product-container button {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 0.2rem;
+  padding: 0.6rem 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.2s;
+}
+
+.add-product-container button:hover {
+  background: var(--dark-blue);
+}
+
+.add-product-container form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.double-column {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-product-container form select {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 0.2rem;
+  margin: 0.4rem 0 1rem 0;
+}
+
+.add-product-container form select option {
+  background: var(--background);
+}
+
+.add-product-container form textarea {
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  margin: 0.4rem 0 1rem 0;
+  padding: 0.2rem;
+  resize: vertical;
+  outline: none;
+}
+
+.add-product-container form textarea:disabled {
+  filter: brightness(0.8);
+}
+
+textarea::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+textarea::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+}
+ 
+textarea::-webkit-scrollbar-thumb {
+  background-color: var(--text);
+}

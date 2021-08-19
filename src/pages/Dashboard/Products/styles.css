@@ -1,0 +1,194 @@
+.home-container section {
+    margin-bottom: 2rem;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo img {
+    width: 12rem;
+    margin-bottom: 1rem;
+  }
+  
+  .logo p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    margin-bottom: 0;
+  }
+  
+  .logo span {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 600;
+  }
+  
+  .filters span {
+    cursor: pointer;
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    width: fit-content;
+  
+    transition: all 0.2s;
+  }
+  
+  .filters span:hover {
+    color: var(--text);
+    filter: brightness(0.8);
+  }
+  
+  .filters svg {
+    margin-left: 0.4rem;
+  }
+  
+  .filter-menu-item {
+    display: flex;
+    align-items: center;
+    color: var(--dark-blue);
+  }
+  
+  .filter-menu-item label {
+    margin-left: 0.2rem;
+  }
+  
+  .filter-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.2rem 0.4rem;
+  }
+  
+  .filter-button button {
+    justify-self: flex-end;
+    background: var(--dark-blue);
+    border: 1px solid var(--text);
+    border-radius: 0.2rem;
+    color: var(--text);
+    padding: 0.2rem 0.4rem;
+    font-size: 0.8rem;
+  
+    transition: filter 0.2s;
+  }
+  
+  .filter-button button:hover {
+    filter: brightness(0.8);
+  }
+  
+  .ant-dropdown {
+    color: var(--dark-blue);
+  }
+  
+  .ant-dropdown-menu {
+    background-color: var(--background);
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .search-box {
+    display: flex;
+  }
+  
+  .search-box input {
+    background: none;
+    line-height: 2rem;
+    color: var(--text);
+    border: none;
+    border-bottom: 1px solid var(--text);
+    padding: 0.4rem;
+    font-size: 1rem;
+  
+    transition: filter 0.2s;
+  }
+  
+  .search-box input:hover {
+    filter: brightness(0.8);
+  }
+  
+  .search-box input:focus {
+    background: none;
+    outline: none;
+  }
+  
+  .search-box button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+  
+    transition: filter 0.2s;
+  }
+  
+  .search-box button:hover {
+    filter: brightness(0.8);
+  }
+  
+  .products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    justify-items: center;
+  }
+  
+  .load-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .load-more button {
+    background: var(--dark-blue);
+    padding: 0.2rem 0.4rem;
+    border: 1px solid var(--text);
+    border-radius: 0.2rem;
+    justify-self: center;
+  
+    transition: filter 0.2s;
+  }
+  
+  .load-more button:hover {
+    filter: brightness(0.8);
+  }
+  
+  .scroll-top {
+    cursor: pointer;
+    position: fixed;
+    z-index: 10;
+    bottom: 3rem;
+    right: 6rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--dark-blue);
+    border-radius: 0.4rem;
+    box-shadow: 0 0.6px 1.1px rgb(0 0 0 / 3%), 
+      0 1.3px 2.7px rgb(0 0 0 / 4%), 
+      0 2.5px 5px rgb(0 0 0 / 5%), 
+      0 4.5px 8.9px rgb(0 0 0 / 6%), 
+      0 8.4px 16.7px rgb(0 0 0 / 7%), 
+      0 20px 40px rgb(0 0 0 / 10%)
+    ;
+    animation: fadeIn 0.4s;
+  
+    transition: all 0.2s;
+  }
+  
+  .scroll-top:hover {
+    filter: brightness(0.8);
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

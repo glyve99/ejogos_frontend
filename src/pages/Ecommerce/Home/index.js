@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
-
 import { message } from 'antd';
 import { FiSearch } from 'react-icons/fi';
 import {FaTree} from 'react-icons/fa'
 import {AiFillCar} from 'react-icons/ai';
-import {GiPistolGun} from 'react-icons/gi'
+import {GiPistolGun, GiBroadsword} from 'react-icons/gi'
+import {FiPower} from 'react-icons/fi'
+import {BsGraphUp} from 'react-icons/bs'
 import api from '../../../services/api';
 import ProductCard from '../../../components/ProductCard';
 
@@ -98,9 +99,14 @@ function Home() {
 
   return (
     <div className="home-container">
+      
+    
       <section className="logo">
+      <FiPower/>
       <p>EJOGOS</p>
       </section>
+
+    
 
       <section className="filters">
         <button
@@ -111,6 +117,16 @@ function Home() {
           <GiPistolGun />
           Ação
         </button>
+
+        <button
+          type="button"
+          className={activeFilter === 'rpg' ? 'active-button' : ''}
+          onClick={() => filterByCategory('rpg')}
+        >
+          <GiBroadsword />
+          RPG
+        </button>
+
         <button
           type="button"
           className={activeFilter === 'aventura' ? 'active-button' : ''}
@@ -126,6 +142,15 @@ function Home() {
         >
           <AiFillCar/>
           Corrida
+        </button>
+
+        <button
+          type="button"
+          className={activeFilter === 'novos' ? 'active-button' : ''}
+          onClick={() => filterByCategory('novos')}
+        >
+          <BsGraphUp/>
+          Novos
         </button>
       </section>
 

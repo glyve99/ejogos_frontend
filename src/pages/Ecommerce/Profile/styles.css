@@ -1,0 +1,62 @@
+.profile-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 10rem;
+  }
+  
+  .profile-container h2 {
+    color: var(--text);
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .profile-container form {
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .double-column {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem
+  }
+  
+  .profile-actions {
+    display: flex;
+  }
+  
+  .profile-actions button:first-child {
+    margin-right: 1rem;
+  }
+  
+  .profile-actions button svg {
+    margin-right: 0.6rem;
+  }
+  
+  .profile-container button {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    background: none;
+    border: 1px solid var(--text);
+    border-radius: 0.2rem;
+    padding: 0.2rem 0.4rem;
+  
+    transition: all 0.2s;
+  }
+  
+  .profile-container button:hover:enabled {
+    background: var(--text);
+    color: var(--dark-background);
+    filter: brightness(0.8);
+  }
+  
+  .profile-container button:disabled {
+    cursor: default;
+    filter: brightness(0.5);
+  }
